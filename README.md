@@ -72,7 +72,7 @@ Add this setting after <code>location /</code>:
 
 	location /api {
 		if ($request_uri ~* "/api/(.*)") {
-			proxy_pass  http://127.0.0.1:8080/apietc/$1;
+			proxy_pass  http://127.0.0.1:8087/apietc/$1;
 		}
 	}
 
@@ -178,7 +178,7 @@ otherwise you will get errors on start because of JSON comments.**
   // Provides JSON data for frontend which is static website
   "api": {
     "enabled": true,
-    "listen": "0.0.0.0:8080",
+    "listen": "0.0.0.0:8087",
     // Collect miners stats (hashrate, ...) in this interval
     "statsCollectInterval": "5s",
     // Purge stale stats interval
