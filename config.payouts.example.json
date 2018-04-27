@@ -4,7 +4,7 @@
 	"name": "main",
 
 	"proxy": {
-		"enabled": false,
+		"enabled": true,
 		"listen": "0.0.0.0:8881",
 		"limitHeadersSize": 1024,
 		"limitBodySize": 256,
@@ -18,7 +18,7 @@
 		"maxFails": 100,
 
 		"stratum": {
-			"enabled": false,
+			"enabled": true,
 			"listen": "0.0.0.0:8007",
 			"timeout": "120s",
 			"maxConn": 8192
@@ -47,7 +47,7 @@
 	},
 
 	"api": {
-		"enabled": false,
+		"enabled": true,
 		"purgeOnly": false,
 		"purgeInterval": "10m",
 		"listen": "0.0.0.0:8087",
