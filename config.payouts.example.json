@@ -5,7 +5,7 @@
 
 	"proxy": {
 		"enabled": false,
-		"listen": "0.0.0.0:8888",
+		"listen": "0.0.0.0:8881",
 		"limitHeadersSize": 1024,
 		"limitBodySize": 256,
 		"behindReverseProxy": false,
@@ -19,7 +19,7 @@
 
 		"stratum": {
 			"enabled": false,
-			"listen": "0.0.0.0:8008",
+			"listen": "0.0.0.0:8007",
 			"timeout": "120s",
 			"maxConn": 8192
 		},
@@ -68,7 +68,7 @@
 		},
 		{
 			"name": "backup",
-			"url": "http://127.0.0.2:8545",
+			"url": "http://127.0.0.2:9545",
 			"timeout": "10s"
 		}
 	],
@@ -83,7 +83,7 @@
 	"unlocker": {
 		"enabled": false,
 		"poolFee": 1.0,
-		"poolFeeAddress": "",
+		"poolFeeAddress": "0xb1401222ba1e099655a460b5ab8e0bac2a28ccda",
 		"depth": 120,
 		"immatureDepth": 20,
 		"keepTxFees": false,
@@ -98,7 +98,7 @@
 		"interval": "120m",
 		"daemon": "http://127.0.0.1:9545",
 		"timeout": "10s",
-		"address": "0x0",
+		"address": "0xb1401222ba1e099655a460b5ab8e0bac2a28ccda",
 		"gas": "21000",
 		"gasPrice": "50000000000",
 		"autoGas": true,

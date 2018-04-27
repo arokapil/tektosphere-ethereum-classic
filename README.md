@@ -107,7 +107,7 @@ otherwise you will get errors on start because of JSON comments.**
     "enabled": true,
 
     // Bind HTTP mining endpoint to this IP:PORT
-    "listen": "0.0.0.0:8888",
+    "listen": "0.0.0.0:8881",
 
     // Allow only this header and body size of HTTP request from miners
     "limitHeadersSize": 1024,
@@ -123,7 +123,7 @@ otherwise you will get errors on start because of JSON comments.**
     "stratum": {
       "enabled": true,
       // Bind stratum mining socket to this IP:PORT
-      "listen": "0.0.0.0:8008",
+      "listen": "0.0.0.0:8007",
       "timeout": "120s",
       "maxConn": 8192
     },
