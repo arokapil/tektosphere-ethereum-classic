@@ -1,10 +1,10 @@
 package proxy
 
 import (
-	"github.com/LeChuckDE/open-ethereumclassic-pool/api"
-	"github.com/LeChuckDE/open-ethereumclassic-pool/payouts"
-	"github.com/LeChuckDE/open-ethereumclassic-pool/policy"
-	"github.com/LeChuckDE/open-ethereumclassic-pool/storage"
+	"github.com/arokapil/tektosphere-ethereum-classic/api"
+	"github.com/arokapil/tektosphere-ethereum-classic/payouts"
+	"github.com/arokapil/tektosphere-ethereum-classic/policy"
+	"github.com/arokapil/tektosphere-ethereum-classic/storage"
 )
 
 type Config struct {

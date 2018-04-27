@@ -35,8 +35,8 @@ First install  [go-ethereum](https://github.com/ethereum/go-ethereum/wiki/Instal
 
 Clone & compile:
 
-    git clone https://github.com/LeChuckDE/open-ethereumclassic-pool.git
-    cd open-ethereumclassic-pool
+    git clone https://github.com/arokapil/tektosphere-ethereum-classic.git
+    cd tektosphere-ethereum-classic
     make
 
 Install redis-server.
@@ -212,7 +212,7 @@ otherwise you will get errors on start because of JSON comments.**
   "upstream": [
     {
       "name": "main",
-      "url": "http://127.0.0.1:8545",
+      "url": "http://127.0.0.1:9545",
       "timeout": "10s"
     },
     {
@@ -247,7 +247,7 @@ otherwise you will get errors on start because of JSON comments.**
     // Run unlocker in this interval
     "interval": "10m",
     // Geth instance node rpc endpoint for unlocking blocks
-    "daemon": "http://127.0.0.1:8545",
+    "daemon": "http://127.0.0.1:9545",
     // Rise error if can't reach geth in this amount of time
     "timeout": "10s"
   },
@@ -260,7 +260,7 @@ otherwise you will get errors on start because of JSON comments.**
     // Run payouts in this interval
     "interval": "12h",
     // Geth instance node rpc endpoint for payouts processing
-    "daemon": "http://127.0.0.1:8545",
+    "daemon": "http://127.0.0.1:9545",
     // Rise error if can't reach geth in this amount of time
     "timeout": "10s",
     // Address with pool balance
@@ -300,7 +300,7 @@ I recommend this deployment strategy:
 This pool is tested to work with [Ethcore's Parity](https://github.com/ethcore/parity). Mining and block unlocking works, but I am not sure about payouts and suggest to run *official* geth node for payments.
 
 ### Credits
-Ported by LeChuckDE, Licensed under GPLv3.
+Ported by arokapil, Licensed under GPLv3.
 Made by sammy007. Licensed under GPLv3.
 
 #### Contributors

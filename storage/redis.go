@@ -10,7 +10,7 @@ import (
 	"github.com/ethereumproject/go-ethereum/common"
 	"gopkg.in/redis.v3"
 
-	"github.com/LeChuckDE/open-ethereumclassic-pool/util"
+	"github.com/arokapil/tektosphere-ethereum-classic/util"
 )
 
 type Config struct {

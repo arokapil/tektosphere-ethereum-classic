@@ -10,11 +10,11 @@ fi
 # Create fake Go workspace if it doesn't exist yet.
 workspace="$PWD/build/_workspace"
 root="$PWD"
-ethdir="$workspace/src/github.com/LeChuckDE"
-if [ ! -L "$ethdir/open-ethereumclassic-pool" ]; then
+ethdir="$workspace/src/github.com/arokapil"
+if [ ! -L "$ethdir/tektosphere-ethereum-classic" ]; then
     mkdir -p "$ethdir"
     cd "$ethdir"
-    ln -s ../../../../../. open-ethereumclassic-pool
+    ln -s ../../../../../. tektosphere-ethereum-classic
     cd "$root"
 fi
 
@@ -25,8 +25,8 @@ GOBIN="$PWD/build/bin"
 export GOPATH GOBIN
 
 # Run the command inside the workspace.
-cd "$ethdir/open-ethereumclassic-pool"
-PWD="$ethdir/open-ethereumclassic-pool"
+cd "$ethdir/tektosphere-ethereum-classic"
+PWD="$ethdir/tektosphere-ethereum-classic"
 
 # Launch the arguments with the configured environment.
 exec "$@"

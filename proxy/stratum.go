@@ -9,7 +9,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/LeChuckDE/open-ethereumclassic-pool/util"
+	"github.com/arokapil/tektosphere-ethereum-classic/util"
 )
 
 const (

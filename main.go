@@ -11,10 +11,10 @@ import (
 
 	"github.com/yvasiyarov/gorelic"
 
-	"github.com/LeChuckDE/open-ethereumclassic-pool/api"
-	"github.com/LeChuckDE/open-ethereumclassic-pool/payouts"
-	"github.com/LeChuckDE/open-ethereumclassic-pool/proxy"
-	"github.com/LeChuckDE/open-ethereumclassic-pool/storage"
+	"github.com/arokapil/tektosphere-ethereum-classic/api"
+	"github.com/arokapil/tektosphere-ethereum-classic/payouts"
+	"github.com/arokapil/tektosphere-ethereum-classic/proxy"
+	"github.com/arokapil/tektosphere-ethereum-classic/storage"
 )
 
 var cfg proxy.Config

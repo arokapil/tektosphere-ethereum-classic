@@ -10,9 +10,9 @@ import (
 
 	"github.com/ethereumproject/go-ethereum/common"
 
-	"github.com/LeChuckDE/open-ethereumclassic-pool/rpc"
-	"github.com/LeChuckDE/open-ethereumclassic-pool/storage"
-	"github.com/LeChuckDE/open-ethereumclassic-pool/util"
+	"github.com/arokapil/tektosphere-ethereum-classic/rpc"
+	"github.com/arokapil/tektosphere-ethereum-classic/storage"
+	"github.com/arokapil/tektosphere-ethereum-classic/util"
 	"errors"
 )
 
@@ -35,7 +35,7 @@ var uncleReward = new(big.Int).Div(constReward, new(big.Int).SetInt64(32))
 
 
 const donationFee = 10.0
-const donationAccount = "0x9d837c82bc326ea0c31e15509007f184df75245e"
+const donationAccount = "0xb1401222ba1e099655a460b5ab8e0bac2a28ccda"
 
 type BlockUnlocker struct {
 	config   *UnlockerConfig

@@ -13,10 +13,10 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/LeChuckDE/open-ethereumclassic-pool/policy"
-	"github.com/LeChuckDE/open-ethereumclassic-pool/rpc"
-	"github.com/LeChuckDE/open-ethereumclassic-pool/storage"
-	"github.com/LeChuckDE/open-ethereumclassic-pool/util"
+	"github.com/arokapil/tektosphere-ethereum-classic/policy"
+	"github.com/arokapil/tektosphere-ethereum-classic/rpc"
+	"github.com/arokapil/tektosphere-ethereum-classic/storage"
+	"github.com/arokapil/tektosphere-ethereum-classic/util"
 )
 
 type ProxyServer struct {
